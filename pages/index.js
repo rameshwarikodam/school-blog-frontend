@@ -57,10 +57,10 @@ const Index = ({ router }) => {
                                     <div
                                         className="front"
                                         style={{
-                                            backgroundImage: 'url(' + '/static/images/students.jpg' + ')'
+                                            backgroundImage: 'url(' + '/static/images/studentscrop.png' + ')'
                                         }}
                                     >
-                                        <h2 className="text-shadow text-center h1">Students</h2>
+                                        <h2 className="text-center h1">Students</h2>
                                     </div>
                                     <div className="back text-center">
                                         <Link href="/categories/students">
@@ -80,10 +80,10 @@ const Index = ({ router }) => {
                                     <div
                                         className="front"
                                         style={{
-                                            backgroundImage: 'url(' + '/static/images/teacher.jpg' + ')'
+                                            backgroundImage: 'url(' + '/static/images/teachercrop.png' + ')'
                                         }}
                                     >
-                                        <h2 className="text-shadow text-center h1">Teachers</h2>
+                                        <h2 className="text-center h1 mt: 0 pt: 0">Teachers</h2>
                                     </div>
                                     <div className="back text-center">
                                         <Link href="/categories/teachers">
@@ -103,10 +103,10 @@ const Index = ({ router }) => {
                                     <div
                                         className="front"
                                         style={{
-                                            backgroundImage: 'url(' + '/static/images/other.jpg' + ')'
+                                            backgroundImage: 'url(' + '/static/images/otherscrop.png' + ')'
                                         }}
                                     >
-                                        <h2 className="text-shadow text-center h1">Others</h2>
+                                        <h2 className="text-center h1">Others</h2>
                                     </div>
                                     <div className="back text-center">
                                         <Link href="/categories/others">

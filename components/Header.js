@@ -17,7 +17,7 @@ import {
   DropdownMenu,
   DropdownItem
 } from "reactstrap";
-import ".././node_modules/nprogress/nprogress.css";
+// import ".././node_modules/nprogress/nprogress.css";
 import Search from "./blog/Search";
 
 Router.onRouteChangeStart = url => NProgress.start();
@@ -34,6 +34,8 @@ const Header = () => {
   return (
     <React.Fragment>
       <Navbar color="light" light expand="md">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.js" integrity="sha512-/CzcPLOqUndTJKlWJ+PkvFh2ETRtkrnxwmULr9LsUU+cFLl7TAOR5gwwD8DRLvtM4h5ke/GQknlqQbWuT9BKdA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel=""></link>
         <Link href="/">
           <NavLink className="font-weight-bold">{APP_NAME}</NavLink>
         </Link>
