@@ -4,7 +4,7 @@ const { publicRuntimeConfig } = getConfig();
 
 class MyDocument extends Document {
   setGoogleTags() {
-    if (publicRuntimeConfig.PRODUCTION) {
+    if (process.env.PRODUCTION) {
       return {
         __html: `
           window.dataLayer = window.dataLayer || [];
