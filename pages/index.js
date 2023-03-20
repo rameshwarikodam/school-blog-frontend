@@ -36,7 +36,7 @@ const Index = ({ router }) => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12 text-center">
-                                <h1 className="font-weight-bold">Digital Dnyanganga</h1>
+                                <h1 className="font-weight-bold">{APP_NAME}</h1>
                             </div>
                         </div>
                     </div>
