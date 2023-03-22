@@ -57,7 +57,7 @@ const Index = ({ router }) => {
                                     <div
                                         className="front"
                                         style={{
-                                            backgroundImage: `url('../static/images/studentscrop.png')`
+                                            backgroundImage: `url('/static/images/studentscrop.png')`
                                         }}
                                     >
                                         <h2 className="text-center h1">Students</h2>
@@ -80,7 +80,7 @@ const Index = ({ router }) => {
                                     <div
                                         className="front"
                                         style={{
-                                            backgroundImage: `url('../static/images/teachercrop.png')`
+                                            backgroundImage: `url('/static/images/teachercrop.png')`
                                         }}
                                     >
                                         <h2 className="text-center h1 mt: 0 pt: 0">Teachers</h2>
@@ -103,7 +103,7 @@ const Index = ({ router }) => {
                                     <div
                                         className="front"
                                         style={{
-                                            backgroundImage: `url('../static/images/otherscrop.png')`
+                                            backgroundImage: `url('/static/images/otherscrop.png')`
                                         }}
                                     >
                                         <h2 className="text-center h1">Others</h2>
